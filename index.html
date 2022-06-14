@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="twitter:image" content="https://media.discordapp.net/attachments/943002756317315103/985927172986388530/20220613_205107-removebg-preview.png">
+    <meta name="theme-color" content="#8aff5c">
+    <meta name="description" content="The perfect discord bot made to provide you with many breath taking feature and much more!">
+    <title> Spark - THE BEST DISCORD BOT</title>
+    <link rel="icon" href="https://media.discordapp.net/attachments/943002756317315103/985927172986388530/20220613_205107-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+        <nav>
+        <img src="https://media.discordapp.net/attachments/943002756317315103/985927172986388530/20220613_205107-removebg-preview.png" class="logo">
+                <ul id="menuList">
+                    <li><a href="index.html#">HOME</a></li>
+                    <li><a href="https://discord.gg/k484qFSY5F">SUPPORT</a></li>
+
+ 
+                </ul>
+            </nav>
+            <img src="barimg.png" class="menu-logo" onclick="togglemenu()">
+        </div>
+        <div class="row">
+                <div class="col-1">
+                <h2>Spark</h2>
+                <h3>Create experience in a way you've never seen it before!</h3>
+                <button type="button" onclick="window.location.href = 'https://discord.com/oauth2/authorize?client_id=982539609965723658&permissions=8&scope=bot%20applications.commands';">INVITE</button>
+            </div>
+            <div class="col-2">
+                <img src="https://media.discordapp.net/attachments/943002756317315103/985927172986388530/20220613_205107-removebg-preview.png" class="controller">
+                <div class="color-box"></div>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+        <div class="social">
+            <img src="footerkira.png" width="150px">
+            <p>Copyright © 2022 | Spark</p>
+        </div>
+          <ul class="list">
+              
+              <li>
+                <p>|</p>
+              </li>
+              <li>
+                <a href="https://discord.gg/k484qFSY5F">SUPPORT</a>
+            </li>
+           <!---    <li>
+             <p>|</p>
+              </li>
+            <li>
+                <a href="policy.html">PRIVACY POLICY</a>
+            </li> 
+            <li>
+                <p>|</p>
+              </li> -->
+            
+          </ul>
+      </section>
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px"
+            }
+            else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
